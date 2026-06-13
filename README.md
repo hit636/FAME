@@ -1,4 +1,4 @@
-# FAME: Forecastability-Aware Mixture of Experts
+# FAME: Forecastability-Aware Mixture of Experts for Heterogeneous Time Series Forecasting
 
 FAME is a sparse mixture-of-experts framework for heterogeneous retail and industrial time-series forecasting. It extracts forecastability fingerprints, mines expert suitability from validation losses, and routes each series to a small budgeted set of forecasting experts.
 
