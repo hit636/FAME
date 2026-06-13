@@ -138,8 +138,6 @@ Detailed reproducibility notes are provided in:
 
 ```text
 docs/REPRODUCIBILITY_CHECKLIST.md
-docs/PAPER_TABLE_IV_ALIGNMENT.md
-docs/VALIDATION_REPORT.md
 ```
 
 ---
