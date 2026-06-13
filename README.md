@@ -149,7 +149,7 @@ The default full configuration follows the paper Table IV settings for SARIMA, E
 Use strict mode for paper-style runs:
 
 ```bash
-python run_icdm_experiment.py \
+python run_fame_experiment.py \
   --data ./data/latest_history.csv \
   --out-dir ./output/icdm_full \
   --model-out ./fame_model_full \
