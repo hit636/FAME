@@ -14,6 +14,7 @@ series + metadata + context
 This repository provides a reproducible implementation of the FAME workflow used in the ICDM Applied Track submission.
 
 ---
+<img width="1716" height="930" alt="image" src="https://github.com/user-attachments/assets/8bba13c3-91bd-4e58-bc08-69fe16670e32" />
 
 ## Highlights
 
