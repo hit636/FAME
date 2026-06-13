@@ -1,0 +1,10 @@
+{
+  "notes": "Reviewer smoke-test mode. Use --fast-artifact; finishes quickly on CPU.",
+  "horizon": 14,
+  "top_r": 2,
+  "delta": 0.05,
+  "tau": 0.30,
+  "router_epochs": 20,
+  "device": "cpu",
+  "strict_experts": false
+}

@@ -1,0 +1,9 @@
+{
+  "horizon": 14,
+  "top_r": 2,
+  "delta": 0.05,
+  "tau": 0.30,
+  "gamma_cost": 0.01,
+  "device": "auto",
+  "notes": "Lightweight artifact mode. Use run_icdm_experiment.py --fast-artifact or manually configure experts with fallback params when full dependencies are unavailable. The default config uses full recommended dependencies."
+}

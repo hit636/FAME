@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "selected_delta": 0.0,
+  "original_delta": 0.1,
+  "criterion": "calibration_mse_excluding_censored_days",
+  "scores": [
+    {
+      "delta": 0.0,
+      "mse": 12.503517637718842,
+      "mae": 2.7485539292767336,
+      "valid_rows": 96
+    },
+    {
+      "delta": 0.02,
+      "mse": 12.503674810889947,
+      "mae": 2.7486049082976787,
+      "valid_rows": 96
+    },
+    {
+      "delta": 0.05,
+      "mse": 12.534003315570416,
+      "mae": 2.7522765355882233,
+      "valid_rows": 96
+    },
+    {
+      "delta": 0.1,
+      "mse": 12.613268102625076,
+      "mae": 2.756089391781053,
+      "valid_rows": 96
+    }
+  ]
+}

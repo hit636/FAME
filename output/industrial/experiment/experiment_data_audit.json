@@ -1,0 +1,21 @@
+{
+  "experiment_full_data": {
+    "name": "experiment_full_data",
+    "rows": 2016,
+    "columns": 23,
+    "n_series": 24,
+    "min_date": "2025-01-21",
+    "max_date": "2025-04-14",
+    "errors": [],
+    "warnings": [],
+    "stats": {
+      "target_nan_rows": 0,
+      "target_negative_rows": 0,
+      "duplicate_id_date_rows": 0,
+      "short_series_count": 0,
+      "estimated_missing_calendar_days": 0,
+      "availability_missing_cells": 0
+    },
+    "ok": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "notes": "Favorita converted-to-FAME-schema benchmark configuration.",
+  "horizon": 28,
+  "top_r": 2,
+  "delta": 0.05,
+  "tau": 0.30,
+  "router_epochs": 120,
+  "device": "cuda:1"
+}

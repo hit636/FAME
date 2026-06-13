@@ -1,0 +1,87 @@
+{
+  "top_r": 2,
+  "delta": 0.0,
+  "tau": 0.3,
+  "gamma_cost": 0.01,
+  "expert_names": [
+    "ets",
+    "croston_tsb",
+    "linear",
+    "lightgbm",
+    "dlinear"
+  ],
+  "expert_backends": [
+    {
+      "name": "ets",
+      "kind": "ets",
+      "backend": "ets",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 0.8
+    },
+    {
+      "name": "croston_tsb",
+      "kind": "tsb",
+      "backend": "tsb",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 0.6
+    },
+    {
+      "name": "linear",
+      "kind": "linear",
+      "backend": "sklearn_ridge",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 0.6
+    },
+    {
+      "name": "lightgbm",
+      "kind": "lightgbm",
+      "backend": "lightgbm_fallback_ridge",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 1.0
+    },
+    {
+      "name": "dlinear",
+      "kind": "dlinear",
+      "backend": "dlinear",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 3.0
+    }
+  ],
+  "calibration": {
+    "enabled": true,
+    "selected_delta": 0.0,
+    "original_delta": 0.05,
+    "criterion": "calibration_mse_excluding_censored_days",
+    "scores": [
+      {
+        "delta": 0.0,
+        "mse": 10.792589237774859,
+        "mae": 2.5907826628526505,
+        "valid_rows": 120
+      },
+      {
+        "delta": 0.02,
+        "mse": 10.792589237774859,
+        "mae": 2.5907826628526505,
+        "valid_rows": 120
+      },
+      {
+        "delta": 0.05,
+        "mse": 10.792589237774859,
+        "mae": 2.5907826628526505,
+        "valid_rows": 120
+      },
+      {
+        "delta": 0.1,
+        "mse": 10.792589237774859,
+        "mae": 2.5907826628526505,
+        "valid_rows": 120
+      }
+    ]
+  }
+}

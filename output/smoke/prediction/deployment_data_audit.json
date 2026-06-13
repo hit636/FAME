@@ -1,0 +1,35 @@
+{
+  "deployment_history": {
+    "name": "deployment_history",
+    "rows": 2016,
+    "columns": 23,
+    "n_series": 24,
+    "min_date": "2025-01-21",
+    "max_date": "2025-04-14",
+    "errors": [],
+    "warnings": [],
+    "stats": {
+      "target_nan_rows": 0,
+      "target_negative_rows": 0,
+      "duplicate_id_date_rows": 0,
+      "short_series_count": 0,
+      "estimated_missing_calendar_days": 0,
+      "availability_missing_cells": 0
+    },
+    "ok": true
+  },
+  "future_input": {
+    "name": "future_input",
+    "rows": 28,
+    "columns": 10,
+    "n_series": 0,
+    "min_date": "2025-04-15",
+    "max_date": "2025-04-28",
+    "errors": [],
+    "warnings": [],
+    "stats": {
+      "future_mode": "date_city_context"
+    },
+    "ok": true
+  }
+}

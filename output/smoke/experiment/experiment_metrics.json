@@ -1,0 +1,79 @@
+{
+  "stage": "closed_loop_fame_experiment",
+  "data_path": "data/latest_history.csv",
+  "model_out": "output/smoke/model",
+  "split_rows": {
+    "train": 1392,
+    "validation": 216,
+    "test": 408
+  },
+  "metrics": {
+    "mse": 10.534397583963136,
+    "rmse": 3.2456736718227135,
+    "mae": 2.622444938848215,
+    "wape": 0.4946636777832294,
+    "smape": 0.7479721571694158,
+    "stock_aware_loss": 5.918863689245164,
+    "valid_demand_rows": 408,
+    "censored_rows_excluded": 0,
+    "matched_rows": 408,
+    "matched_series": 24,
+    "expert_usage_entropy": 1.1281993909266443,
+    "avg_active_experts": 2.0,
+    "max_active_experts": 2,
+    "runtime_seconds": 13.29
+  },
+  "top_r": 2,
+  "delta": 0.0,
+  "tau": 0.3,
+  "fast_artifact": true,
+  "expert_names": [
+    "ets",
+    "croston_tsb",
+    "linear",
+    "lightgbm",
+    "dlinear"
+  ],
+  "expert_backends": [
+    {
+      "name": "ets",
+      "kind": "ets",
+      "backend": "ets",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 0.8
+    },
+    {
+      "name": "croston_tsb",
+      "kind": "tsb",
+      "backend": "tsb",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 0.6
+    },
+    {
+      "name": "linear",
+      "kind": "linear",
+      "backend": "sklearn_ridge",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 0.6
+    },
+    {
+      "name": "lightgbm",
+      "kind": "lightgbm",
+      "backend": "lightgbm_fallback_ridge",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 1.0
+    },
+    {
+      "name": "dlinear",
+      "kind": "dlinear",
+      "backend": "dlinear",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 3.0
+    }
+  ]
+}

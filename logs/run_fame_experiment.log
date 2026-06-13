@@ -1,0 +1,4 @@
+2026-06-13 13:56:36,346 [INFO] FAME_EXPERIMENT - Fast artifact mode enabled: experts=['ets', 'croston_tsb', 'linear', 'lightgbm', 'dlinear'] router_epochs=5
+2026-06-13 13:56:36,930 [INFO] FAME_EXPERIMENT - Split rows: train=1392 val=216 test=408
+2026-06-13 13:56:49,500 [INFO] FAME_EXPERIMENT - Experiment metrics: {'mse': 10.534397583963136, 'rmse': 3.2456736718227135, 'mae': 2.622444938848215, 'wape': 0.4946636777832294, 'smape': 0.7479721571694158, 'stock_aware_loss': 5.918863689245164, 'valid_demand_rows': 408, 'censored_rows_excluded': 0, 'matched_rows': 408, 'matched_series': 24, 'expert_usage_entropy': 1.1281993909266443, 'avg_active_experts': 2.0, 'max_active_experts': 2, 'runtime_seconds': 13.29}
+2026-06-13 13:56:49,500 [INFO] FAME_EXPERIMENT - Experiment artifacts saved to: /home/liqianyang/FAME_main/output/smoke/experiment

@@ -1,0 +1,14 @@
+2026-06-13 13:31:53,159 [INFO] FAME_DEPLOY - Loading model from output/smoke/model
+2026-06-13 13:31:53,171 [INFO] FAME_DEPLOY - Runtime device overridden to: cpu
+2026-06-13 13:31:53,218 [INFO] FAME_DEPLOY - Running FAME Top-r sparse inference
+2026-06-13 13:31:55,142 [INFO] FAME_DEPLOY - Predictions saved to: /home/liqianyang/FAME_main/output/smoke/prediction/prediction.csv
+2026-06-13 13:31:55,142 [INFO] FAME_DEPLOY - Explanations saved to: /home/liqianyang/FAME_main/output/smoke/prediction/prediction_explain.csv
+2026-06-13 13:31:55,142 [INFO] FAME_DEPLOY - Deployment manifest saved to: output/smoke/prediction/deployment_manifest.json
+2026-06-13 13:31:55,142 [INFO] FAME_DEPLOY - Prediction rows=336 series=24 avg_active_experts=2.000
+2026-06-13 13:56:52,682 [INFO] FAME_DEPLOY - Loading model from output/smoke/model
+2026-06-13 13:56:52,694 [INFO] FAME_DEPLOY - Runtime device overridden to: cpu
+2026-06-13 13:56:52,740 [INFO] FAME_DEPLOY - Running FAME Top-r sparse inference
+2026-06-13 13:56:54,700 [INFO] FAME_DEPLOY - Predictions saved to: /home/liqianyang/FAME_main/output/smoke/prediction/prediction.csv
+2026-06-13 13:56:54,700 [INFO] FAME_DEPLOY - Explanations saved to: /home/liqianyang/FAME_main/output/smoke/prediction/prediction_explain.csv
+2026-06-13 13:56:54,700 [INFO] FAME_DEPLOY - Deployment manifest saved to: output/smoke/prediction/deployment_manifest.json
+2026-06-13 13:56:54,700 [INFO] FAME_DEPLOY - Prediction rows=336 series=24 avg_active_experts=2.000

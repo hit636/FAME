@@ -1,0 +1,13 @@
+{
+  "notes": "Paper-style GPU configuration for a server with two RTX 4090 GPUs. Tree/statistical experts use CPU; torch router/deep experts use cuda:0 by default. Launch separate public benchmarks with CUDA_VISIBLE_DEVICES=0/1 if desired.",
+  "horizon": 14,
+  "top_r": 2,
+  "delta": 0.05,
+  "tau": 0.30,
+  "gamma_cost": 0.01,
+  "eta_oracle_cost": 0.0,
+  "router_epochs": 200,
+  "device": "cuda:0",
+  "strict_experts": true,
+  "max_dlinear_windows": 200000
+}

@@ -1,0 +1,9 @@
+{
+  "horizon": 14,
+  "top_r": 2,
+  "delta": 0.05,
+  "tau": 0.30,
+  "gamma_cost": 0.01,
+  "device": "auto",
+  "notes": "Default ICDM artifact configuration. Validation is split into oracle-mining and router-calibration windows."
+}

@@ -1,0 +1,132 @@
+{
+  "top_r": 2,
+  "delta": 0.0,
+  "tau": 0.3,
+  "gamma_cost": 0.05,
+  "expert_names": [
+    "sarima",
+    "ets",
+    "prophet",
+    "croston_tsb",
+    "linear",
+    "xgboost",
+    "lightgbm",
+    "dlinear",
+    "timemixer",
+    "timesnet"
+  ],
+  "expert_backends": [
+    {
+      "name": "sarima",
+      "kind": "sarima",
+      "backend": "sarima_order=(1, 1, 1)_seasonal=(1, 1, 1, 7)",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 1.2
+    },
+    {
+      "name": "ets",
+      "kind": "ets",
+      "backend": "ets_trend=add_seasonal=add",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 0.8
+    },
+    {
+      "name": "prophet",
+      "kind": "prophet",
+      "backend": "prophet_holiday_tuned_cps=0.1",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 1.0
+    },
+    {
+      "name": "croston_tsb",
+      "kind": "tsb",
+      "backend": "tsb",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 0.6
+    },
+    {
+      "name": "linear",
+      "kind": "linear",
+      "backend": "sklearn_ridge",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 0.6
+    },
+    {
+      "name": "xgboost",
+      "kind": "xgboost",
+      "backend": "external_xgboost",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 1.1
+    },
+    {
+      "name": "lightgbm",
+      "kind": "lightgbm",
+      "backend": "external_lightgbm",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 1.0
+    },
+    {
+      "name": "dlinear",
+      "kind": "dlinear",
+      "backend": "dlinear",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 3.0
+    },
+    {
+      "name": "timemixer",
+      "kind": "timemixer",
+      "backend": "timemixer",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 3.6
+    },
+    {
+      "name": "timesnet",
+      "kind": "timesnet",
+      "backend": "timesnet",
+      "fallback_count": 0,
+      "error_count": 0,
+      "cost": 4.1
+    }
+  ],
+  "calibration": {
+    "enabled": true,
+    "selected_delta": 0.0,
+    "original_delta": 0.1,
+    "criterion": "calibration_mse_excluding_censored_days",
+    "scores": [
+      {
+        "delta": 0.0,
+        "mse": 12.503517637718842,
+        "mae": 2.7485539292767336,
+        "valid_rows": 96
+      },
+      {
+        "delta": 0.02,
+        "mse": 12.503674810889947,
+        "mae": 2.7486049082976787,
+        "valid_rows": 96
+      },
+      {
+        "delta": 0.05,
+        "mse": 12.534003315570416,
+        "mae": 2.7522765355882233,
+        "valid_rows": 96
+      },
+      {
+        "delta": 0.1,
+        "mse": 12.613268102625076,
+        "mae": 2.756089391781053,
+        "valid_rows": 96
+      }
+    ]
+  }
+}

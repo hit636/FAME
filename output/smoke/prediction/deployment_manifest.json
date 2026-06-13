@@ -1,0 +1,40 @@
+{
+  "stage": "batch_deployment_inference",
+  "paper_component": "Top-r budgeted sparse routing and forecast fusion",
+  "model_dir": "output/smoke/model",
+  "history_path": "data/latest_history.csv",
+  "future_path": "data/future_weather.csv",
+  "future_is_full_frame": false,
+  "prediction_path": "output/smoke/prediction/prediction.csv",
+  "explanation_path": "output/smoke/prediction/prediction_explain.csv",
+  "runtime_seconds": 2.017,
+  "top_r": 2,
+  "delta": 0.0,
+  "quality": {
+    "prediction_rows": 336,
+    "prediction_series": 24,
+    "negative_prediction_rows": 0,
+    "nan_prediction_rows": 0,
+    "explanation_rows": 48,
+    "expert_usage_entropy": 0.8124020933275242,
+    "expert_usage": [
+      {
+        "expert": "croston_tsb",
+        "count": 2,
+        "sum": 0.85006494042146
+      },
+      {
+        "expert": "lightgbm",
+        "count": 22,
+        "sum": 9.970467989555056
+      },
+      {
+        "expert": "linear",
+        "count": 24,
+        "sum": 13.179467070023485
+      }
+    ],
+    "avg_active_experts": 2.0,
+    "max_active_experts": 2
+  }
+}
